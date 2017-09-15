@@ -6,7 +6,7 @@ body{
 	background-color: #333;
 }
 
-.topnav label {
+.topnav span {
 	float: left;
 	display: block;
 	color: #f2f2f2;
@@ -24,6 +24,12 @@ body{
 .topnav #menuicon {
 	display: none;
 	style="font-size: 15px;
+}
+
+.topChi{
+	position: absolute;
+	display: none;	
+	index-z: 1;
 }
 
 @media screen and (max-width: 600px) {

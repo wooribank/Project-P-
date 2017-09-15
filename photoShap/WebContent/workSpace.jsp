@@ -11,16 +11,33 @@
 	<div class="topnav" id="myTopnav">
 		<span onclick="menuItemView('file')">
 			<label>파일</label>
-			<div id="file">
+			<div class="topChi" id="file">
 				<label id="newFile">새로운 파일 만들기</label>
-			</div>	
+			</div>
 		</span> 
-		<label id="news">News</label> 
-		<label id="contact">Contact</label>
-		<label id="about">About</label> 
-		<label id="menuicon" onclick="myFunction()">&#9776;</label>
+		<span onclick="menuItemView('1')"> 
+			<label id="news">News</label>
+			<div class="topChi" id="1">
+				
+			</div>
+		</span>
+		<span onclick="menuItemView('2')">
+			<label id="contact">Contact</label>
+			<div  class="topChi" id="2">
+				 
+			</div>
+		</span>
+		<span onclick="menuItemView('3')">
+			<label id="about">About</label>
+			<div class="topChi" id="3">
+				
+			</div>
+		</span>
+		
+		
+		<label id="menuicon" onclick="topnavView()">&#9776;</label>
 	</div>
-	
+
 	<script src="./script/workSpace.js"></script>
 </body>
 </html>
