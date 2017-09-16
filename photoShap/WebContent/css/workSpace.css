@@ -1,6 +1,9 @@
 body{
 	margin: 0px auto;
+	background-color: #686868;
 }
+
+/*----------------------------------------------Navigation 영역-------------------------------------------------------------*/
 .topnav {
 	overflow: hidden;
 	background-color: #333;
@@ -10,26 +13,36 @@ body{
 	float: left;
 	display: block;
 	color: #f2f2f2;
-	text-align: center;
 	padding: 5px 4px;
 	text-decoration: none;
-	font-size: 10px;
+	font-size: 13px;
 }
 
-.topnav label:hover {
+.topChi div:hover {
 	background-color: #ddd;
 	color: black;
 }
 
 .topnav #menuicon {
 	display: none;
-	style="font-size: 15px;
+	font-size: 15px;
 }
 
 .topChi{
+	background-color: rgba(3, 3, 3, 0.5);
+	padding: 3px;
+	margin: 6px 0px 0px -3px;
+	width: 200px;
 	position: absolute;
-	display: none;	
+	display: none;
+	
 	index-z: 1;
+}
+
+.topChi div{
+	padding : 1px;
+	margin: 2px 0px 0px 1px ;
+	
 }
 
 @media screen and (max-width: 600px) {
@@ -57,3 +70,8 @@ body{
 		text-align: left;
 	}
 }
+
+/*---------------------------------------------Section 영역-------------------------------------------------------------*/
+
+
+
