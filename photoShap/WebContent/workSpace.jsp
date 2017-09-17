@@ -13,25 +13,24 @@
 	<nav class="topnav" id="myTopnav"> <span
 		onclick="menuItemView('file')"> <label>파일</label>
 		<div class="topChi" id="file">
-			<div class="topChiElm" id="newFile"><label>새로운 파일 만들기</div>
-			<div class="topChiElm" id="openFIle"><label>열기</label></div>
+			<div class="topChiElm" id="newFile">
+				<label>새로운 파일 만들기
+			</div>
+			<div class="topChiElm" id="openFile">
+				<label>열기</label>
+			</div>
 		</div>
-	</span> <span onclick="menuItemView('1')"> <label id="news">News</label>
-		<div class="topChi" id="1"></div>
-	</span> <span onclick="menuItemView('2')"> <label id="contact">Contact</label>
-		<div class="topChi" id="2"></div>
-	</span> <span onclick="menuItemView('3')"> <label id="about">About</label>
-		<div class="topChi" id="3"></div>
-	</span> <label id="menuicon" onclick="topnavView()">&#9776;</label> </nav>
+		</span> <span onclick="menuItemView('1')"> <label id="news">News</label>
+			<div class="topChi" id="1"></div>
+		</span> <span onclick="menuItemView('2')"> <label id="contact">Contact</label>
+			<div class="topChi" id="2"></div>
+		</span> <span onclick="menuItemView('3')"> <label id="about">About</label>
+			<div class="topChi" id="3"></div>
+		</span> 
+	</nav>
 
-	<section>
-		<canvas id="workSpace"> </canvas> 
+	<canvas id="canvas"></canvas>
 	
-	</section>
-
-
-
-
 
 
 	<!-- 스크립트 정의 할 곳 -->
