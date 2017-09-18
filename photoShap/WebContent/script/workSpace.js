@@ -41,9 +41,11 @@ document.getElementById("newFile").addEventListener("click", function() {
 });
 /* 기존 이미지 파일 열기 생성 */
 document.getElementById("openFile").addEventListener("click", function() {
+	
 	var fileSelector, img, context, iw, ih;
 	var section = document.getElementById("canvasView");
 	canvas = document.getElementById("canvas");
+	
 	if (canvas.getContext) {
 		context = canvas.getContext('2d');
 
