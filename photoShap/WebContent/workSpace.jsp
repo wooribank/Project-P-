@@ -29,9 +29,10 @@
 		</span> 
 	</nav>
 
-	<canvas id="canvas"></canvas>
-	
-
+	<img src="./images/kakaotalk.jpg">
+	<section id="canvasView">
+		<canvas id="canvas"></canvas>
+	<section>
 
 	<!-- 스크립트 정의 할 곳 -->
 	<script src="./script/workSpace.js"></script>
